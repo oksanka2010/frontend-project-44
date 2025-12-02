@@ -16,5 +16,8 @@
     "url": "https://github.com/oksanka2010/frontend-project-44/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/oksanka2010/frontend-project-44#readme"
+  "homepage": "https://github.com/oksanka2010/frontend-project-44#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
 }
