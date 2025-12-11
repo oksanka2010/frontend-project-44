@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import startGame, { getRandomNumber } from '../../src/index.js'
 
-const condition = 'Find the greatest common divisor of given numbers.'
+const condition = 'What number is missing in the progression?'
 
 const minLength = 5
 const maxLength = 10
