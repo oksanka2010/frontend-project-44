@@ -5,3 +5,4 @@ https://asciinema.org/a/5wZQ3Mn8v79vZAAV2HsEmL7Ww
 https://asciinema.org/a/XzDSdv8yXaaL4H5ysEyCKrsOI
 https://asciinema.org/a/xdmQMxD7oYdTfyQz6xt3uX6oE
 https://asciinema.org/a/eu50RtmB2ZWHK0WXchl3Jgrdp
+https://asciinema.org/a/E6WOhy20Vah0EXJhUTJCcZitB
