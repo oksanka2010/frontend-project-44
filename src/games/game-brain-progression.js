@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-import startGame, { getRandomNumber } from '../../src/index.js'
+import startGame from '../index.js'
+import getRandomNumber from '../random.js'
 
 const condition = 'What number is missing in the progression?'
 
@@ -29,4 +29,4 @@ const getQuestionAndAnswer = () => {
   return [question, correctAnswer]
 }
 
-startGame(getQuestionAndAnswer, condition)
+export default () => startGame(getQuestionAndAnswer, condition)

@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-import startGame, { getRandomNumber } from '../../src/index.js'
+import startGame from '../index.js'
+import getRandomNumber from '../random.js'
 
 const condition = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -22,4 +22,4 @@ const getQuestionAndAnswer = () => {
   return [question, correctAnswer]
 }
 
-startGame(getQuestionAndAnswer, condition)
+export default () => startGame(getQuestionAndAnswer, condition)

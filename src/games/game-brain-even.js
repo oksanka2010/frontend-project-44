@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-import startGame, { getRandomNumber } from '../../src/index.js'
+import startGame from '../index.js'
+import getRandomNumber from '../random.js'
 
 const condition = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -9,4 +9,4 @@ const getQuestionAndAnswer = () => {
   return [question, correctAnswer]
 }
 
-startGame(getQuestionAndAnswer, condition)
+export default () => startGame(getQuestionAndAnswer, condition)
